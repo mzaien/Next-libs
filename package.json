@@ -1,0 +1,61 @@
+{
+  "name": "next-libs",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Next.js library template with typescript",
+  "source": "src/pages/index.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "source": "src/pages/index.jsx",
+    "main": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "make": "next build",
+    "start": "next start",
+    "watch": "microbundle --watch",
+    "build": "microbundle --jsx React.createElement --compress ",
+    "prepare": "rm -rf dist && rm -rf .next && yarn build",
+    "pack-size": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz ",
+    "publish": "np"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": "./dist/index.modern.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mzaien/next-redirects.git"
+  },
+  "keywords": [
+    "next",
+    "next.js",
+    "react",
+    "lib",
+    "template"
+  ],
+  "author": "Abdullah Mzaien <awmzaien@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mzaien/Next-lib-template/issues"
+  },
+  "peerDependencies": {
+    "next": ">= 10.0.0",
+    "react": ">=  17.0.2",
+    "react-dom": ">= 17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "@types/react": "^17.0.5",
+    "microbundle": "^0.13.0",
+    "next": "^10.1.2",
+    "np": "^7.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.4"
+  }
+}
