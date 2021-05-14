@@ -18,7 +18,7 @@
     "start": "next start",
     "watch": "microbundle --watch",
     "build": "microbundle --jsx React.createElement --compress ",
-    "prepare": "rm -rf dist && rm -rf .next && yarn build",
+    "prepare": "rm -rf dist && rm -rf .next  && rm -rf .next && yarn build",
     "pack-size": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz ",
     "publish": "np"
   },
