@@ -1,4 +1,8 @@
-function Index({ name }) {
+export type indexProps = {
+  name: string;
+};
+
+function Index({ name }: indexProps) {
   return (
     <p
       style={{
