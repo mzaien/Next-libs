@@ -1,0 +1,1 @@
+# Next.js library template with typescript
