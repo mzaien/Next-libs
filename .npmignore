@@ -4,3 +4,5 @@ node_modules
 .cache
 *.lock
 .next
+src
+.yarnclean
