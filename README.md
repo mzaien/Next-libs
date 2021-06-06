@@ -7,8 +7,8 @@ Have you ever wanted to make a library for Next.js (using any specific Next.js f
 </div>
 
 <p>Next.js Library template is built with:<br/>
-1- [Microbundel](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need <br/>
-2- [NP](https://github.com/sindresorhus/np) for publishing on npm/yarn registries<br/>
+1- [Microbundel](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need <br/> 🛠
+2- [NP](https://github.com/sindresorhus/np) for publishing on npm/yarn registries<br/> 🚀
 x- Any libray you would need <br/>
 </p>
 
