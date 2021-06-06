@@ -1,15 +1,17 @@
-# Next-libs
-
-Have you ever wanted to make a library for Next.js (using any specific Next.js functionalities) either a Ui component Library or a Utility library this template makes is it a breeze 🚀
-
 <div align="center">
-<img src="./next-libs.png" width="200" />
+<img src="./next-libs.png" width="500px" />
 </div>
 
-<p>Next.js Library template is built with:<br/>
-1- [Microbundel](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need <br/> 🛠
-2- [NP](https://github.com/sindresorhus/np) for publishing on npm/yarn registries<br/> 🚀
-x- Any libray you would need <br/>
-</p>
+# Next-libs
 
-If you want to use Typescript for the lib you can Go to the `main` branch and use it
+Do you want to make A react library using Next.js awesome tools <br/> either a components or a Utility this template makes is it a breeze 🚀
+
+## Tools used
+
+<p>Next.js Library template is built with:</p><br/>
+
+1- [Microbundel](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need 🛠<br/>
+2- [NP](https://github.com/sindresorhus/np) for publishing on npm/yarn registries 🚀<br/>
+x- Any libray if you ever need 😉 <br/>
+
+If you want to use TypeScript for the lib you can Go to the `main` branch and use it
