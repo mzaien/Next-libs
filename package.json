@@ -1,6 +1,6 @@
 {
   "name": "next-libs",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "private": false,
   "description": "Next.js library template with typescript",
   "source": "src/pages/index.tsx",
