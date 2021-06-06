@@ -7,9 +7,9 @@ Do you want to make A react library using Next.js awesome tools <br/> either a c
 
 ## Tools used
 <p>Next.js Library template is built with:<br/>
-1- [Typescript](https://www.typescriptlang.org/) For typesafty and easy documation <br/>⚙️
-2- [Microbundel](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need <br/>🛠
-3- [NP](https://github.com/sindresorhus/np) for publishing on npm/yarn registries<br/>🚀
+1- [Typescript !](https://www.typescriptlang.org) For typesafty and easy documation ⚙️<br/>
+2- [Microbundel !](https://github.com/developit/microbundle) for bundling the library you can custimize it if you need 🛠<br/>
+3- [NP !](https://github.com/sindresorhus/np) for publishing on npm/yarn registries 🚀<br/> 
 x- Any libray you would need <br/>
 </p>
 
