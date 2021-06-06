@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./next-lib.png" width="500px" />
+<img src="./next-libs.png" width="500px" />
 </div>
 
 # Next-libs
