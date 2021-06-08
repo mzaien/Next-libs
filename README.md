@@ -17,6 +17,6 @@ x- Any libray if you ever need 😉 <br/>
 If you want to use TypeScript for the lib you can Go to the `main` branch and use it
 
 
-Roadmap :
+Roadmap 🚂 :
 - [ ] linting  😉 Soon
 - [ ] Examples Folder  <b>Any contripution is welcomed ✌🏻</b>
