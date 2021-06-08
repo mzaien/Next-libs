@@ -14,3 +14,7 @@ Do you want to make A react library using Next.js awesome tools <br/> either a c
 x- Any libray if you ever need 😉 <br/>
 
 If you want to use JavaScript for the lib you can Go to the `js` branch and use it
+
+Missing things :
+- [ ] linting  😉 Soon
+- [ ] Examples Folder  <b>Any contripution is welcomed ✌🏻</b>
