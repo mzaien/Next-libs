@@ -18,5 +18,5 @@ If you want to use TypeScript for the lib you can Go to the `main` branch and us
 
 
 Roadmap 🚂 :
-- [ ] linting  😉 Soon
+- [X] linting  Done Thanks to Next v11
 - [ ] Examples Folder  <b>Any contripution is welcomed ✌🏻</b>
