@@ -21,7 +21,7 @@
     "build": "microbundle --jsx React.createElement --compress --tsconfig tsconfig.json",
     "prepare": "rm -rf dist && rm -rf .next && yarn build",
     "pack-size": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz ",
-    "np": "npm login && np"
+    "publish": "np"
   },
   "files": [
     "dist",
