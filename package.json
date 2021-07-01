@@ -30,7 +30,7 @@
   "exports": "./dist/index.modern.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mzaien/next-redirects.git"
+    "url": "git+https://github.com/Mzaien/next-libs.git"
   },
   "keywords": [
     "next",
