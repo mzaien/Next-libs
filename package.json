@@ -18,10 +18,10 @@
     "lint": "next lint",
     "start": "next start",
     "watch": "microbundle --watch",
-    "build:package": "microbundle --jsx React.createElement --compress --tsconfig tsconfig.json",
+    "build:package": "microbundle --jsx React.createElement --compress --visualize --tsconfig tsconfig.json ",
     "prepare": "rm -rf dist && rm -rf .next && yarn build:package",
     "pack-size": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz ",
-    "publish": "np"
+    "publish": "np --no-tests"
   },
   "files": [
     "dist",
@@ -50,15 +50,15 @@
     "react-dom": ">= 17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^16.11.7",
-    "@types/react": "^17.0.35",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^12.0.4",
-    "microbundle": "^0.14.1",
-    "next": "^12.0.4",
-    "np": "^7.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.4.4"
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "microbundle": "^0.15.0",
+    "next": "^12.2.3",
+    "np": "^7.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
   }
 }
