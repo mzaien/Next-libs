@@ -14,14 +14,14 @@
   },
   "scripts": {
     "dev": "next dev",
-    "make": "next build",
+    "build": "next build",
     "lint": "next lint",
     "start": "next start",
     "watch": "microbundle --watch",
-    "build": "microbundle --jsx React.createElement --compress --visualize",
-    "prepare": "rm -rf dist && rm -rf .next && yarn build",
+    "build:package": "microbundle --jsx React.createElement --compress --visualize",
+    "prepare": "rm -rf dist && rm -rf .next && yarn build:package",
     "pack-size": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz ",
-    "publish": "np"
+    "publish": "np --no-tests"
   },
   "files": [
     "dist",
